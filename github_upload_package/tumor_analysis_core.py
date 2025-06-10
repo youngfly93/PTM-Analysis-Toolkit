@@ -44,7 +44,8 @@ class TumorAnalysisCore:
         # 目标修饰类型
         self.target_modifications = {
             'Oxidation[M]', 'Acetyl[K]', 'Phospho[S]', 'Phospho[T]', 'Phospho[Y]',
-            'Deamidated[N]', 'Deamidated[Q]', 'Methyl[K]', 'Dimethyl[K]', 'Trimethyl[K]'
+            'Deamidated[N]', 'Deamidated[Q]', 'Methyl[K]', 'Dimethyl[K]', 'Trimethyl[K]',
+            'Ubiquitination[K]', 'Citrullination[R]'
         }
         
         # 修饰类型的中文名称映射
@@ -58,7 +59,9 @@ class TumorAnalysisCore:
             'Deamidated[Q]': '谷氨酰胺脱酰胺',
             'Methyl[K]': '赖氨酸甲基化',
             'Dimethyl[K]': '赖氨酸二甲基化',
-            'Trimethyl[K]': '赖氨酸三甲基化'
+            'Trimethyl[K]': '赖氨酸三甲基化',
+            'Ubiquitination[K]': '赖氨酸泛素化',
+            'Citrullination[R]': '精氨酸瓜氨酸化'
         }
     
     def load_cancer_datasets(self) -> List[str]:

@@ -109,6 +109,8 @@ python example_usage.py
 | Methyl[K] | K | 0.05 | -3.76 |
 | Dimethyl[K] | K | -0.55 | -3.96 |
 | Trimethyl[K] | K | -1.00 | -4.06 |
+| Ubiquitination[K] | K | NA | -5.0 |
+| Citrullination[R] | R | -6.5 | -1.0 |
 
 ## 文件结构
 

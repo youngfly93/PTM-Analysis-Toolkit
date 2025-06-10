@@ -196,6 +196,23 @@ class PeptidePropertiesAnalyzer:
                 'new_hydro_ei': 0.26,
                 'unimod_id': 'bdmapp',
                 'delta_mass': 0.0  # 未知质量变化
+            },
+            # 与肿瘤免疫相关的修饰
+            'Ubiquitination[K]': {
+                'target_aa': 'K',
+                'new_pka': None,
+                'new_hydro_kd': -7.0,
+                'new_hydro_ei': -5.0,
+                'unimod_id': 'gg',
+                'delta_mass': 114.043
+            },
+            'Citrullination[R]': {
+                'target_aa': 'R',
+                'new_pka': 6.0,
+                'new_hydro_kd': -1.0,
+                'new_hydro_ei': -0.5,
+                'unimod_id': 'cit',
+                'delta_mass': 0.984
             }
         }
         return modifications
