@@ -44,7 +44,7 @@ python tumor_vs_normal_ptm_analysis.py
 
 ## 📊 功能特点
 
-- ✅ **专业的PTM分析**: 支持9种常见修饰类型
+ - ✅ **专业的PTM分析**: 支持11种常见修饰类型（新增Ubiquitination和Citrullination）
 - ✅ **统计严谨**: 非参数检验 + 效应量分析
 - ✅ **可视化专业**: 符合学术发表标准
 - ✅ **断点续传**: 支持中断后继续分析

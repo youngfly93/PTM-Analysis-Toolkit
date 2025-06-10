@@ -55,7 +55,8 @@ class PeptideGroupAnalyzer:
         self.target_modifications = [
             'Phospho[S]', 'Phospho[T]', 'Phospho[Y]',
             'Acetyl[K]', 'Methyl[K]', 'Dimethyl[K]', 'Trimethyl[K]',
-            'Deamidated[N]', 'Deamidated[Q]'
+            'Deamidated[N]', 'Deamidated[Q]',
+            'Ubiquitination[K]', 'Citrullination[R]'
         ]
 
         # 理化性质列名

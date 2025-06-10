@@ -28,5 +28,8 @@
     "Methyl[K]",
     "Dimethyl[K]",
     "Trimethyl[K]"
+    ,
+    "Ubiquitination[K]",
+    "Citrullination[R]"
   ]
 }
