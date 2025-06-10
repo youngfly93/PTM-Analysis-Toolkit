@@ -1,0 +1,32 @@
+{
+  "name": "PTM Analysis Toolkit",
+  "version": "2.0.0",
+  "description": "专业的蛋白质翻译后修饰(PTM)分析工具包",
+  "author": "PTM分析工具开发团队",
+  "created_date": "2025-06-10T16:47:03.279262",
+  "core_scripts": [
+    "peptide_group_analysis.py",
+    "peptide_group_analysis_modified.py",
+    "tumor_vs_normal_ptm_analysis.py",
+    "peptide_properties_analyzer.py",
+    "tumor_analysis_core.py"
+  ],
+  "features": [
+    "肽段分组分析",
+    "肿瘤vs正常样本比较",
+    "理化性质计算",
+    "统计分析和可视化",
+    "断点续传功能"
+  ],
+  "supported_modifications": [
+    "Acetyl[K]",
+    "Phospho[S]",
+    "Phospho[T]",
+    "Phospho[Y]",
+    "Deamidated[N]",
+    "Deamidated[Q]",
+    "Methyl[K]",
+    "Dimethyl[K]",
+    "Trimethyl[K]"
+  ]
+}
